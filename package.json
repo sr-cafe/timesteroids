@@ -20,7 +20,7 @@
     "lint": "echo '=> Linting' && eslint ./src/script/**",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "sr_cafe",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.4.5",
