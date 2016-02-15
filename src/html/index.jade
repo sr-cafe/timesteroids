@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+
+		//- title=copies.meta.title
+		
+		link(rel='stylesheet', href='/style/style.css')
+	body
+		header
+			h1 Timesteroids
+			//- h2 Saving the universe one second at a time
+		canvas
+		| <!--[if lte IE 9]>
+		//- script(src='#{ENV.staticPath}js/polyfills.js')
+		| <!--<![endif]-->
+
+		script(src='/script/bundle.js')
+
+		block pageScript
